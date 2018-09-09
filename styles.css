@@ -1,0 +1,75 @@
+body {
+	background-color: rgb(60, 60, 60);
+}
+
+#welcomeBox {
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+#welcomeBox p, h2 {
+	color: white;
+	text-align: center;
+}
+
+#welcomeBox p {
+	font-size: 18px;
+	padding-bottom: 40px;
+}
+
+#welcomeBox .boxWrapper {
+	background-color: rgba(11, 11, 11, 0.5);
+	width: 500px;
+	height: 300px;
+	display: block;
+	margin: 0 auto;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+.wrapper {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.wrapper .innerWrapper {
+	display: block;
+	margin: 0 auto;
+	width: 700px;
+	height: 400px;
+}
+
+.wrapper .innerWrapper div {
+	height: 49%;
+	width: 32%;
+	border-radius: 15px;
+	background-color: blue;
+	display: inline-block;
+	cursor: pointer;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	padding-top: 20px;
+}
+
+h3 {
+	margin-left: 10px;
+	color: white;
+}
+
+button {
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 100px;
+	height: 30px;
+	border-radius: 10px;
+	cursor: pointer;
+}
